@@ -4,6 +4,8 @@ body {
     font-family: 'Signika Negative', sans-serif;
     padding: 0;
     margin: 0;
+    width: 100vw;
+    height: 100vh;  
 }
 
 header {
@@ -48,4 +50,36 @@ header {
 
 .Next-pageBtn:hover {
     background-color: #49C6E5;
+}
+
+.MainSection {
+    background-color: #D7F7FF;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.flowerimg {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    border: 5px solid #FFFBFA;
+    transition: 0.5s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.flowerimg:hover {
+    width: 500px;
+    height: 500px;
+    border: 5px solid #1785A1 ;
+    box-shadow: 0 16px 24px 0 rgba(0,0,0,0.2), 0 12px 40px 0 rgba(0,0,0,0.19);
+}
+
+.FlowerName {
+    text-align: center;
 }
