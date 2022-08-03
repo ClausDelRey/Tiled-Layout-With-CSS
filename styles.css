@@ -18,6 +18,7 @@ header {
 .Hquestionbox {
     margin-left: 50px;
     margin-right: 50px;
+    min-width: 300px;
 }
 
 .Hcontact, .Next-page {
@@ -82,4 +83,10 @@ header {
 
 .FlowerName {
     text-align: center;
+}
+
+.footerbox {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFBFA;
 }
